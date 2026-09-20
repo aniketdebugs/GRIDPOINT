@@ -18,7 +18,7 @@ Experience the complete interactive warehouse optimization and network resilienc
 ## 🎥 Demo Video
 
 🎬 **See GRIDPOINT in action:**  
-👉 [Watch the GRIDPOINT Demo](YOUR_DEMO_VIDEO_LINK)
+👉 [Watch the GRIDPOINT Demo](https://drive.google.com/file/d/1fU32JbOlPsossRY_70QrtLm5TY7lYD3X/view?usp=drivesdk)
 
 Our demo walks through the problem, solution, warehouse optimization, operational analysis, resilience testing, and What-if scenarios.
 
