@@ -2,6 +2,12 @@
 
 Demand-Aware Warehouse Optimization & Network Resilience Platform.
 
+# GRIDPOINT
+
+**Live Demo:** [https://your-actual-gridpoint-url.streamlit.app](https://gridpoint.streamlit.app/)
+
+> Demand-aware warehouse optimization and network resilience platform.
+
 ## What it solves
 
 GridPoint helps an e-commerce company choose warehouse locations and assign neighborhoods while minimizing order-weighted delivery distance.
