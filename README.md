@@ -1,69 +1,48 @@
 # 🚚 GRIDPOINT
 
-Demand-Aware Warehouse Optimization & Network Resilience Platform.
+## Demand-Aware Warehouse Optimization & Network Resilience Platform
 
-# GRIDPOINT
+> **Where should warehouses go, how should demand be served, and what happens when the network is under stress?**
 
-**Live Demo:** [https://your-actual-gridpoint-url.streamlit.app](https://gridpoint.streamlit.app/)
+---
 
-> Demand-aware warehouse optimization and network resilience platform.
+## 🌐 Live Demo
 
-## What it solves
+🚀 **Try GRIDPOINT:**  
+👉 [Open the GRIDPOINT Dashboard](https://gridpoint.streamlit.app/)
 
-GridPoint helps an e-commerce company choose warehouse locations and assign neighborhoods while minimizing order-weighted delivery distance.
+Experience the complete interactive warehouse optimization and network resilience dashboard directly in your browser.
 
-The optimization objective is:
+---
 
-`Total weighted delivery cost = Σ (daily_orders × distance_to_assigned_warehouse)`
+## 🎥 Demo Video
 
-## Current prototype
+🎬 **See GRIDPOINT in action:**  
+👉 [Watch the GRIDPOINT Demo](YOUR_DEMO_VIDEO_LINK)
 
-- CSV upload
-- Sample Bengaluru neighborhood dataset
-- Demand-weighted K-Means candidate warehouse placement
-- Neighborhood-to-warehouse assignment
-- Capacity constraints
-- Maximum delivery radius
-- Before vs after comparison
-- Warehouse utilization
-- What-If Lab:
-  - demand change
-  - warehouse failure
-- Interactive map
-- Deterministic AI Analyst starter tab
+Our demo walks through the problem, solution, warehouse optimization, operational analysis, resilience testing, and What-if scenarios.
 
-## Run locally
+---
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+## 🚀 What is GRIDPOINT?
 
-Then open the local URL printed by Streamlit.
+Every e-commerce order has a journey.
 
-## CSV format
+A warehouse has to be in the right place, serve the right neighborhoods, handle the right amount of demand, and still perform when conditions change.
 
-The uploaded CSV must contain:
+But choosing warehouse locations is not as simple as finding the nearest point on a map.
 
-- `neighborhood`
-- `latitude`
-- `longitude`
-- `daily_orders`
+**GRIDPOINT** is an interactive decision-support platform that helps explore this problem using **real demand data, geographic modelling, optimization, operational constraints, and network-resilience analysis.**
 
-See `data/neighborhoods.csv`.
+The platform allows users to:
 
-## Important hackathon note
+- 📍 Explore where demand is concentrated
+- 🏭 Identify suitable warehouse locations
+- 📦 Assign neighborhoods to warehouses
+- 🚚 Analyse delivery distance and operational costs
+- 📊 Compare the network before and after optimization
+- ⚠️ Test warehouse capacity and delivery-radius constraints
+- 🛡️ Simulate warehouse failures
+- 🧪 Experiment with changing demand and operating conditions
 
-The current AI Analyst tab is a deterministic starter. During the hackathon, if the team adds a public AI API, update this README to name the API/model and explain exactly where it is used.
-
-The hackathon rules require the AI component to be disclosed in the README and state that the team's core logic, integration, and problem-solving must be its own work.
-
-## Suggested future improvements
-
-1. Add a monetary delivery-rate model (₹/km/order).
-2. Add explicit infrastructure cost per warehouse.
-3. Improve constrained optimization beyond the weighted K-Means baseline.
-4. Add scenario comparison charts.
-5. Connect an allowed public AI API to explain computed results.
-6. Add a true resilience score based on multiple failure scenarios.
-
+Instead of giving users one static answer, GRIDPOINT lets them **change the assumptions and see how the entire network responds.**
