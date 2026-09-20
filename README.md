@@ -1,4 +1,3 @@
-# GRIDPOINT
 # 🚚 GRIDPOINT
 
 Demand-Aware Warehouse Optimization & Network Resilience Platform.
